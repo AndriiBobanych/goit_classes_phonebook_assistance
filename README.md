@@ -4,13 +4,13 @@ This is a package with 1 module for dealing with user's contact book with using 
 Was prepared as a homework for unit 10 of Python core course in CoIT school.
 
 Contain classes:  
- - parser (to take the user's input)
- - handler (to execute user's commands)
- - main (to start the process and deal directly with user)
- - phonebook (just to set up the dictionary for contacts)
+ - AddressBook (which inherits from UserDict)
+ - Record (which is responsible for the logic of adding/removing/editing optional fields and storing the mandatory field Name)
+ - Field (which will be the parent of all fields)
+ - Name (required field with name) and Phone (optional field with phone number)
 
 
-Main package with modules is located here  
+Main package with module is located here  
 https://github.com/AndriiBobanych/goit_classes_phonebook_assistance
 
 
